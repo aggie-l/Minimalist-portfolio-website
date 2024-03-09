@@ -1,0 +1,122 @@
+.manage, 
+.bookmark,
+.insure,
+.fylo {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding-inline: 164px;
+    display: flex;
+    gap: 125px;
+}
+
+.project-img {
+    max-width: 540px;
+    min-width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-img img {
+    width: 100%;
+}
+
+.project-info {
+    border-top: 1px solid var(--input-background);
+    border-bottom: 1px solid var(--input-background);
+    max-width: 350px;
+    padding-block: 103px;
+}
+
+.project-info h2 {
+    margin-bottom: 28px;
+}
+
+.project-info p {
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+
+
+@media (max-width: 1100px) {
+    .manage,
+    .bookmark,
+    .insure,
+    .fylo {
+        gap: 69px;
+        padding-inline: 39px 40px;
+        justify-content: center;
+    }
+
+    .fylo {
+        margin-bottom: 10px;
+    }
+
+    .project-info {
+        padding-block: 32px;
+    }
+
+    .project-info p {
+        font-size: 15px;
+    }
+
+    .manage .project-img img {
+        content: url("../starter-code/images/portfolio/tablet/image-portfolio-manage.jpg");
+    }
+
+    .bookmark .project-img img {
+        content: url("../starter-code/images/portfolio/tablet/image-portfolio-bookmark.jpg")
+    }
+
+    .insure .project-img img {
+        content: url("../starter-code/images/portfolio/tablet/image-portfolio-insure.jpg")
+    }
+
+    .fylo .project-img img {
+        content: url("../starter-code/images/portfolio/tablet/image-portfolio-fylo.jpg")
+    }
+}
+
+
+@media (max-width: 638px) {
+    .manage, 
+    .insure {
+        flex-direction: column;
+        padding-inline: 31px;
+    }
+
+    .bookmark,
+    .fylo {
+        flex-direction: column-reverse;
+        padding-inline: 31px;
+    }
+
+    .project-info {
+        max-width: 100%;
+        padding-block: 24px;
+    }
+
+    .manage .project-img img {
+        content: url("../starter-code/images/portfolio/mobile/image-portfolio-manage.jpg");
+    }
+
+    .bookmark .project-img img {
+        content: url("../starter-code/images/portfolio/mobile/image-portfolio-bookmark.jpg")
+    }
+
+    .insure .project-img img {
+        content: url("../starter-code/images/portfolio/mobile/image-portfolio-insure.jpg")
+    }
+
+    .fylo .project-img img {
+        content: url("../starter-code/images/portfolio/mobile/image-portfolio-fylo.jpg")
+    }
+
+    .project-info h2 {
+        margin-bottom: 24px;
+    }
+
+}

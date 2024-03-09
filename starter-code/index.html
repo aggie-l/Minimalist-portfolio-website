@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://kit.fontawesome.com/7402af4e87.js" crossorigin="anonymous"></script>
+  
+  <title>Frontend Mentor | Minimalist Portfolio</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+
+      <nav class="navigation">
+
+        <img src="./images/logo.svg" alt="logo" class="logo">
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+      </nav>
+
+    </header>
+
+    <main>
+
+      <section class="hero">
+
+        <img src="./images/homepage/desktop/image-homepage-hero.jpg" alt="monitor" class="hero-img">
+
+        <div class="title-container">
+          <h1>
+            Hey, I’m Alex Spencer and I love building beautiful websites
+          </h1>
+          <a href="#portfolio">
+            <button class="btn-primary btn-about">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" class="primary-svg">
+                <rect opacity="0.1" width="48" height="48" fill="black"/>
+                <path d="M16 26L24 30L32 26" stroke="#5FB4A2" />
+                <path opacity="0.5" d="M16 22L24 26L32 22" stroke="#5FB4A2"/>
+                <path opacity="0.25" d="M16 18L24 22L32 18" stroke="#5FB4A2" />
+              </svg>
+              <span>About Me</span>
+            </button>
+          </a>
+          
+        </div>
+
+      </section>
+
+      <section class="portfolio" id="portfolio">
+
+        <div class="img-container">
+          <img src="./images/homepage/desktop/image-homepage-profile.jpg" alt="profile image" class="profile-img">
+        </div>
+
+        <div class="text-container">
+
+          <h2>About Me</h2>
+          <p>
+            I’m a junior front-end developer looking for a new role in an exciting company. 
+            I focus on writing accessible HTML, using modern CSS practices and writing clean 
+            JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to 
+            whatever tools are required. I’m based in London, UK, but I’m happy working remotely 
+            and have experience in remote teams. When I’m not coding, you’ll find me outdoors. 
+            I love being out in nature whether that’s going for a walk, run or cycling. I’d love 
+            you to check out my work.
+          </p>
+          <button class="btn-secondary btn-portfolio">
+            Go to Portfolio
+          </button>
+
+        </div>
+
+      </section>
+
+      <section class="contact" id="contact">
+
+        <h2>
+          Interested in doing a project together?
+        </h2>
+        <hr>
+        <button class="btn-secondary btn-contact">
+          Contact Me
+        </button>
+
+      </section>
+
+    </main>
+
+    <footer>
+
+      <nav class="navigation-footer">
+
+        <ul class="footer-menu">
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="61" height="32" viewBox="0 0 61 32" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M31.3469 26.1224L15.6735 0L0 26.1224H31.3469ZM60.0816 5.87755L44.4082 32L28.7347 5.87755H60.0816Z" fill="white"/>
+            </svg>
+          </li>
+          <li class="foo-item">
+            <a href="#" class="nav-link-foo">Home</a>
+          </li>
+          <li class="foo-item">
+            <a href="#portfolio" class="nav-link-foo">Portfolio</a>
+          </li>
+          <li class="foo-item">
+            <a href="#contact" class="nav-link-foo">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="link-menu">
+          <li>
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+        </ul>
+
+      </nav>
+
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

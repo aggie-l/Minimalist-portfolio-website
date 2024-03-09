@@ -1,0 +1,126 @@
+.contact-top,
+.contact-form {
+    padding-block: 48px;
+    display: flex;
+    padding-inline: 165px;
+}
+
+.contact-form {
+    padding-bottom: 100px;
+}
+
+hr {
+    height: 1px;
+    opacity: 0.15;
+    background: #33323D;
+    margin-inline: 165px;
+}
+
+hr.top {
+    margin-top: 30px;
+}
+
+.contact-headline {
+    width: 40%;
+}
+
+.contact-par,
+.form-wrapper {
+    width: 60%;
+}
+
+.contact-par p {
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+.contact-icons li {
+    list-style: none;
+}
+
+.contact-icons .fa-brands {
+    color: rgba(51, 50, 61, 1);
+    width: 24px;
+    height: 24px;
+}
+
+.contact-icons .fa-brands:hover {
+    color: #5FB4A2;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form input,
+.form textarea {
+    padding: 9px 16px;
+}
+
+.form textarea {
+    resize: none;
+    height: 96px;
+}
+
+.form label {
+    color: #33323D;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    opacity: 0.8;
+    margin-top: 16px;
+}
+
+.form button {
+    width: fit-content;
+    padding: 17px 24px;
+    margin-top: 24px;
+}
+
+.error {
+    align-self: flex-start;
+    font-weight: 700;
+    color: #F43030;
+    font-style: italic;
+    font-size: 10px;
+    display: none;
+}
+
+
+@media (max-width: 1100px) {
+    .contact-top,
+    .contact-form {
+        padding-inline: 40px;
+        flex-direction: column;
+    }
+
+    hr {
+        margin-inline: 40px;
+    }
+
+    .contact-headline,
+    .contact-par,
+    .form-wrapper {
+        width: 100%;
+    }
+
+    .contact-headline h2 {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 638px) {
+    .contact-top,
+    .contact-form {
+        padding-inline: 32px;
+    }
+
+    hr {
+        display: block;
+        margin-inline: 32px;
+    }
+}
