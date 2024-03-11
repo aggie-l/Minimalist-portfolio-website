@@ -23,30 +23,40 @@ _____________________________________________________________
 
 ** Desktop view **
 
+<img width="1392" alt="Desktop" src="https://github.com/aggie-l/Minimalist-portfolio-website/assets/142058426/1db202c1-7397-47ff-a80a-14b5c8061bd1">
 
 _____________________________________________________________
 
-** Tablet view **
+** Desktop view && Portfolio **
 
-
-_____________________________________________________________
-
-** Mobile view **
-
+<img width="648" alt="Desktop-portfolio" src="https://github.com/aggie-l/Minimalist-portfolio-website/assets/142058426/56ecd28f-4800-46b6-80f7-58c0847d12bc">
 
 _____________________________________________________________
 
-** Active / Hover states **
 
+** Desktop && Individual portfolio page && Button hover **
+
+<img width="619" alt="Individual-portfolio-hover" src="https://github.com/aggie-l/Minimalist-portfolio-website/assets/142058426/914eb57d-060c-4d5a-9f1d-a110cfb075d7">
+
+_____________________________________________________________
+
+** Tablet view && Contact form **
+
+<img width="683" alt="Contact-form-tablet" src="https://github.com/aggie-l/Minimalist-portfolio-website/assets/142058426/5509e0f8-02d6-4125-bf97-c5705906182b">
+
+_____________________________________________________________
+
+** Mobile view && Hamburger menu open **
+
+<img width="562" alt="Mobile-hamburger-menu-active" src="https://github.com/aggie-l/Minimalist-portfolio-website/assets/142058426/ccb3b893-75d9-433e-8ca3-1fd08d2a977f">
 
 _____________________________________________________________
 
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
-
+- Solution URL: [https://github.com/aggie-l/Minimalist-portfolio-website.git]
+- Live Site URL: [https://minimalist-portfolioo-site.netlify.app/]
 
 
 ### Built with
@@ -55,5 +65,6 @@ _____________________________________________________________
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Media queries
 
-
+## ☕ Coffee Time ☕ ##
