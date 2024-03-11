@@ -66,13 +66,3 @@ form.addEventListener("submit", (e) => {
     validateEmail(emailInput)
     validateMessage(messageInput)
 })
-
-
-portfolioLink.addEventListener("click", () => {
-    location.href = "./pages/portfolio.html"
-})
-
-contactLink.addEventListener("click", () => {
-    location.href = "./pages/contact.html"
-})
-
